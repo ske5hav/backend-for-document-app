@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server"
 
 const ALLOWED_ORIGINS = [
   "http://localhost:3000",
-  "https://your-frontend-domain.vercel.app", // TODO: apna asli deployed frontend URL yaha daalo
+  "https://collaborative-document-editor-leo5.vercel.app", // TODO: apna asli deployed frontend URL yaha daalo
 ]
 
 function corsHeaders(origin: string | null) {
